@@ -1,0 +1,22 @@
+print("Adding Element to a set")  # Using add()
+s1 = {10, 20, 30, 40, 50}
+print(s1)
+s1.add(1)
+print(s1)
+s1.add(False)
+print(s1)
+s1.add(True)
+print(s1)
+
+print(" ")
+print("Deleting Element from Set")  # remove() & discard()
+s2 = {12, 34, 56, 0, 10, 17, 39, 5, 93}
+print(s2)
+s2.remove(56)
+print(s2)
+s2.discard(93)
+print(s2)
+s2.discard(56)
+print(s2)
+# s2.remove(56)
+# print(S2)
